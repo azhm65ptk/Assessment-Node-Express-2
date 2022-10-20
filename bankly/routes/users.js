@@ -41,7 +41,7 @@ router.get('/:username', authUser, requireLogin, async function(
   next
 ) {
   try {
-    let user = await User.get(req.params.username);
+    let user = await User.get(req.params.username);//
     return res.json({ user });
   } catch (err) {
     return next(err);

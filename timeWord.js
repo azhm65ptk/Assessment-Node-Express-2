@@ -38,21 +38,22 @@ return out += 'oh ' + ONES[minute]+ " "+format;
 
 else  return out +="o'clock"+ " "+format;
 }
+module.exports=timeWord;
+// console.log(timeWord("00:00")+"-----"+"midnight");
+// console.log(timeWord("00:12")+"-----"+"twelve twelve am");
+// console.log(timeWord("01:00")+"-----"+"one oclock am");
+// console.log(timeWord("02:00")+"-----"+"two oclock am");
+// console.log(timeWord("03:00")+"-----"+"three oclock am");
+// console.log(timeWord("04:00")+"-----"+"four oclock am");
+// console.log(timeWord("06:01")+"-----"+"six oh one am");
+// console.log(timeWord("06:18")+"-----"+"six eighteen am");
+// console.log(timeWord("06:30")+"-----"+"six thirty am");
+// console.log(timeWord("10:34")+"-----"+"ten thirty four am");
+// console.log(timeWord("12:00")+"-----"+"noon");
+// console.log(timeWord("12:09")+"-----"+"twelve oh nine pm");
+// console.log(timeWord("23:23")+"-----"+"eleven twenty three pm");
+// console.log(timeWord("14:20"));
 
-console.log(timeWord("00:00")+"-----"+"midnight");
-console.log(timeWord("00:12")+"-----"+"twelve twelve am");
-console.log(timeWord("01:00")+"-----"+"one oclock am");
-console.log(timeWord("02:00")+"-----"+"two oclock am");
-console.log(timeWord("03:00")+"-----"+"three oclock am");
-console.log(timeWord("04:00")+"-----"+"four oclock am");
-console.log(timeWord("06:01")+"-----"+"six oh one am");
-console.log(timeWord("06:18")+"-----"+"six eighteen am");
-console.log(timeWord("06:30")+"-----"+"six thirty am");
-console.log(timeWord("10:34")+"-----"+"ten thirty four am");
-console.log(timeWord("12:00")+"-----"+"noon");
-console.log(timeWord("12:09")+"-----"+"twelve oh nine pm");
-console.log(timeWord("23:23")+"-----"+"eleven twenty three pm");
-console.log(timeWord("14:20"));
 
 
 /**
